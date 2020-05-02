@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
+
+
+
+
+<style>
+
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    body{
+
+    }
+
+    .bg{
+        background-color: rgba(0, 0, 0, 0.4);
+        background: url('https://i.ibb.co/HqLXgL8/background.jpg') center;
+        background-size:cover;
+        height: 100vh; 
+        display:flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+
+    .bg::before{
+        content: '';
+        position: absolute;
+        background-color: rgba(17, 17, 17, 0.596);
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+
+</style>
+
+
+</head>
+<body>
+    <div class="bg">
+
+        <div style="z-index: 2; color: #fff;text-align: center;">
+            <span style="font-size: 3em;"> Coming Soon</span>
+           <br>
+        <span style="font-size: 1em;font-weight: 200;">We're working on our new website<br>
+            Stay tuned for something amazing
+        </span>
+        </div>
+        
+
+    </div>
+</body>
+</html>
